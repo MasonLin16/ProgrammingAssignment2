@@ -1,5 +1,5 @@
 ## Matrix inversion is usually a costly computation and caching the inverse of a matrix rather 
-##  than computing it repeatedly
+##  than computing it repeatedly is preferred and executed in this assignment
 
 ## makeCasheMatrix creates a special "vector", which is really a list containing a function to
 ##  1) set the value of the matrix
@@ -38,5 +38,4 @@ cacheSolve <- function(x, ...) {
   x$setinverse(inv)
   inv
 }
-
 
